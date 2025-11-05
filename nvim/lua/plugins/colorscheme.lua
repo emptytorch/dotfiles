@@ -8,4 +8,8 @@ return {
       colorscheme = "gruvbox",
     },
   },
+  {
+    "folke/tokyonight.nvim",
+    enabled = false,
+  },
 }
