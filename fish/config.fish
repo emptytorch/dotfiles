@@ -1,5 +1,7 @@
 set -g fish_greeting
 
+set -gx PATH $HOME/.cargo/bin $PATH
+
 function fish_prompt
     set_color brblack
     echo -n "["(date "+%H:%M")"] "
