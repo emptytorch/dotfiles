@@ -46,6 +46,10 @@
 ;; Borderless
 (add-to-list 'default-frame-alist '(undecorated . t))
 
+;; Make which-key popup appear faster
+(setq which-key-idle-delay 0.3
+      which-key-idle-secondary-delay 0.05)
+
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
 ;;
