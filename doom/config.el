@@ -43,7 +43,7 @@
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org/")
 
-;; Remove top frame bar
+;; Borderless
 (add-to-list 'default-frame-alist '(undecorated . t))
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
