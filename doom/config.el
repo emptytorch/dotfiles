@@ -50,6 +50,9 @@
 (setq which-key-idle-delay 0.3
       which-key-idle-secondary-delay 0.05)
 
+;; Ignore option as modifier on macOS
+(setq mac-option-modifier 'none)
+
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
 ;;
