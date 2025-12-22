@@ -5,6 +5,7 @@ set -gx PATH $HOME/.cargo/bin $PATH
 set -gx PATH $HOME/.config/emacs/bin $PATH
 set -gx PATH $HOME/go/bin $PATH
 set -gx PATH $HOME/.dotnet/tools $PATH
+set -gx PATH $HOME/.omnisharp $PATH
 
 function fish_prompt
     set_color brblack
