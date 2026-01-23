@@ -3,9 +3,12 @@ return {
     "ellisonleao/gruvbox.nvim",
   },
   {
+    "RRethy/base16-nvim",
+  },
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "base16-gruvbox-dark-soft",
     },
   },
   {
