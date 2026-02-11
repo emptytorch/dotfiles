@@ -1,0 +1,14 @@
+theme = "gruber-darker"
+
+[editor]
+line-number = "relative"
+scrolloff = 10
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.indent-guides]
+character = "|"
+render = true
