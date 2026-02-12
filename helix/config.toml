@@ -11,4 +11,4 @@ select = "underline"
 
 [editor.indent-guides]
 character = "|"
-render = true
+render = false
