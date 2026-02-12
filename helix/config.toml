@@ -3,6 +3,7 @@ theme = "gruber-darker"
 [editor]
 line-number = "relative"
 scrolloff = 10
+auto-pairs = false
 
 [editor.cursor-shape]
 insert = "bar"
