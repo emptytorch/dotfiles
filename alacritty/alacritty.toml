@@ -4,9 +4,9 @@ size = 16
 [font.normal]
 family = "IosevkaTerm Nerd Font Mono"
 
-[colors.primary]
-background = "#282828"
-foreground = "#ebdbb2"
+# [colors.primary]
+# background = "#282828"
+# foreground = "#ebdbb2"
 
 [colors.cursor]
 cursor = "#ebdbb2"
