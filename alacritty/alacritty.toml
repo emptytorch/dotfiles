@@ -2,7 +2,7 @@
 size = 16
 
 [font.normal]
-family = "Hack Nerd Font Mono"
+family = "IosevkaTerm Nerd Font Mono"
 
 [colors.primary]
 background = "#282828"
