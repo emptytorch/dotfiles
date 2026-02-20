@@ -17,6 +17,9 @@ return {
       dashboard = {
         enabled = false,
       },
+      indent = {
+        enabled = false,
+      },
     },
   },
 }
