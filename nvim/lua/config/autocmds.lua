@@ -8,6 +8,7 @@ vim.api.nvim_create_autocmd("FileType", {
     "json",
     "yaml",
     "haskell",
+    "gleam",
   },
   callback = function()
     vim.opt_local.tabstop = 2
