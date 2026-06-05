@@ -1,0 +1,17 @@
+[
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "space f f": "file_finder::Toggle",
+      "space s g": "pane::DeploySearch",
+      "space c r": "editor::Rename",
+      "space c a": "editor::ToggleCodeActions",
+      "shift-k": "editor::Hover",
+      "g d": "editor::GoToDefinition",
+      "g D": "editor::GoToDeclaration",
+      "g I": "editor::GoToImplementation",
+      "g y": "editor::GoToTypeDefinition",
+      "g r": "editor::FindAllReferences",
+    },
+  },
+]
