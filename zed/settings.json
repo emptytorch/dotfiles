@@ -71,6 +71,9 @@
   },
   "base_keymap": "VSCode",
   "vim_mode": true,
+  "vim": {},
+  "vertical_scroll_margin": 5,
+  "scroll_beyond_last_line": "off",
   "telemetry": {
     "diagnostics": false,
     "metrics": false,
