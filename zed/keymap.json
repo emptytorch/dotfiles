@@ -20,6 +20,13 @@
     },
   },
   {
+    "context": "Editor && vim_mode == visual && !VimWaiting",
+    "bindings": {
+      ">": ["editor::Indent", "vim::SelectLastVisualSelection"],
+      "<": ["editor::Outdent", "vim::SelectLastVisualSelection"],
+    },
+  },
+  {
     "context": "ProjectPanel",
     "bindings": {
       "space e": "workspace::ToggleLeftDock",
