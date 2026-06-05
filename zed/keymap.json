@@ -11,6 +11,8 @@
       "space w s": "pane::SplitHorizontal",
       "space w d": "pane::CloseActiveItem",
       "space g g": "git_panel::Toggle",
+      "space x x": "diagnostics::Deploy",
+      "space x X": "diagnostics::DeployCurrentFile",
       "shift-k": "editor::Hover",
       "g r": "editor::FindAllReferences",
       "[d": "editor::GoToPreviousDiagnostic",
