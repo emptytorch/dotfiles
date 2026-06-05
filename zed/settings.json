@@ -24,6 +24,14 @@
   "status_bar": {
     "active_language_button": false,
   },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false,
+  },
+  "title_bar": {
+    "show_sign_in": false,
+    "show_user_menu": false,
+  },
   "relative_line_numbers": "enabled",
   "tab_bar": {
     "show": false,
