@@ -35,6 +35,9 @@
   "edit_predictions": {
     "provider": "none",
   },
+  "file_finder": {
+    "modal_max_width": "large",
+  },
   "cursor_blink": false,
   "relative_line_numbers": "enabled",
   "tab_bar": {

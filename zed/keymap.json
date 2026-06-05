@@ -31,4 +31,10 @@
       "q": "git_panel::Close",
     },
   },
+  {
+    "context": "OutlinePanel",
+    "bindings": {
+      "q": "workspace::ToggleRightDock",
+    },
+  },
 ]
