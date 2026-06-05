@@ -6,10 +6,20 @@
       "space s g": "pane::DeploySearch",
       "space c r": "editor::Rename",
       "space c a": "editor::ToggleCodeActions",
+      "space e": "workspace::ToggleLeftDock",
+      "space w v": "pane::SplitVertical",
+      "space w s": "pane::SplitHorizontal",
+      "space w d": "pane::CloseActiveItem",
       "shift-k": "editor::Hover",
       "g r": "editor::FindAllReferences",
       "[d": "editor::GoToPreviousDiagnostic",
       "]d": "editor::GoToDiagnostic",
+    },
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "space e": "workspace::ToggleLeftDock",
     },
   },
 ]
