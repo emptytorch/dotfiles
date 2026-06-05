@@ -48,6 +48,9 @@
       "show": "never",
     },
   },
+  "scrollbar": {
+    "show": "never",
+  },
   "git_panel": {
     "button": false,
   },
