@@ -7,6 +7,40 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "search": {
+    "button": false,
+  },
+  "agent": {
+    "sidebar_side": "left",
+    "button": false,
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "status_bar": {
+    "active_language_button": false,
+  },
+  "relative_line_numbers": "enabled",
+  "tab_bar": {
+    "show": false,
+  },
+  "project_panel": {
+    "button": false,
+  },
+  "git_panel": {
+    "button": false,
+  },
+  "collaboration_panel": {
+    "button": false,
+  },
+  "debugger": {
+    "button": false,
+  },
+  "terminal": {
+    "button": false,
+  },
+  "outline_panel": {
+    "button": false,
+  },
   "base_keymap": "VSCode",
   "vim_mode": true,
   "telemetry": {
