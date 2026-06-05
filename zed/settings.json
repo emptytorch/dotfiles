@@ -32,6 +32,9 @@
     "show_sign_in": false,
     "show_user_menu": false,
   },
+  "edit_predictions": {
+    "provider": "none",
+  },
   "relative_line_numbers": "enabled",
   "tab_bar": {
     "show": false,
