@@ -35,6 +35,7 @@
   "edit_predictions": {
     "provider": "none",
   },
+  "cursor_blink": false,
   "relative_line_numbers": "enabled",
   "tab_bar": {
     "show": false,
