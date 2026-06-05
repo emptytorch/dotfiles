@@ -10,6 +10,7 @@
       "space w v": "pane::SplitVertical",
       "space w s": "pane::SplitHorizontal",
       "space w d": "pane::CloseActiveItem",
+      "space g g": "git_panel::Toggle",
       "shift-k": "editor::Hover",
       "g r": "editor::FindAllReferences",
       "[d": "editor::GoToPreviousDiagnostic",
@@ -20,6 +21,12 @@
     "context": "ProjectPanel",
     "bindings": {
       "space e": "workspace::ToggleLeftDock",
+    },
+  },
+  {
+    "context": "GitPanel",
+    "bindings": {
+      "q": "git_panel::Close",
     },
   },
 ]
