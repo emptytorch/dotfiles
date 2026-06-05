@@ -43,6 +43,7 @@
   "project_panel": {
     "button": false,
     "dock": "left",
+    "sticky_scroll": false,
   },
   "git_panel": {
     "button": false,
