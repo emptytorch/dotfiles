@@ -7,11 +7,9 @@
       "space c r": "editor::Rename",
       "space c a": "editor::ToggleCodeActions",
       "shift-k": "editor::Hover",
-      "g d": "editor::GoToDefinition",
-      "g D": "editor::GoToDeclaration",
-      "g I": "editor::GoToImplementation",
-      "g y": "editor::GoToTypeDefinition",
       "g r": "editor::FindAllReferences",
+      "[d": "editor::GoToPreviousDiagnostic",
+      "]d": "editor::GoToDiagnostic",
     },
   },
 ]

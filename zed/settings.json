@@ -16,6 +16,11 @@
     "favorite_models": [],
     "model_parameters": [],
   },
+  "gutter": {
+    "bookmarks": false,
+    "folds": false,
+    "min_line_number_digits": 0,
+  },
   "status_bar": {
     "active_language_button": false,
   },
@@ -25,6 +30,7 @@
   },
   "project_panel": {
     "button": false,
+    "dock": "left",
   },
   "git_panel": {
     "button": false,
