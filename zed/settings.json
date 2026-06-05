@@ -44,6 +44,9 @@
     "button": false,
     "dock": "left",
     "sticky_scroll": false,
+    "scrollbar": {
+      "show": "never",
+    },
   },
   "git_panel": {
     "button": false,
