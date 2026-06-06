@@ -50,6 +50,7 @@
     "scrollbar": {
       "show": "never",
     },
+    "starts_open": false,
   },
   "scrollbar": {
     "show": "never",
