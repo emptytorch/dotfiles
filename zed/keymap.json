@@ -1,14 +1,14 @@
 [
   {
-    "context": "Workspace",
-    "bindings": {
-      "space e": "project_panel::Toggle",
-    },
-  },
-  {
     "context": "GitPanel",
     "bindings": {
       "q": "git_panel::Close",
+    },
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "space e": "project_panel::Toggle",
     },
   },
   {
@@ -22,6 +22,7 @@
       "space w s": "pane::SplitHorizontal",
       "space w d": "pane::CloseActiveItem",
       "space g g": "git_panel::Toggle",
+      "space e": "project_panel::Toggle",
       "space x x": "diagnostics::Deploy",
       "space x X": "diagnostics::DeployCurrentFile",
       "shift-k": "editor::Hover",
@@ -31,7 +32,7 @@
     },
   },
   {
-    "context": "Editor && vim_mode == visual && !VimWaiting",
+    "context": "Editor && vim_mode == visual",
     "bindings": {
       ">": ["editor::Indent", "vim::SelectLastVisualSelection"],
       "<": ["editor::Outdent", "vim::SelectLastVisualSelection"],
