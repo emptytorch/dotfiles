@@ -9,6 +9,9 @@
 {
   "diagnostics": {
     "button": false,
+    "inline": {
+      "enabled": true,
+    },
   },
   "global_lsp_settings": {
     "button": false,
