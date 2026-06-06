@@ -12,7 +12,7 @@
     },
   },
   {
-    "context": "Editor && vim_mode == normal",
+    "context": "Editor && VimControl",
     "bindings": {
       "space f f": "file_finder::Toggle",
       "space s g": "pane::DeploySearch",
@@ -21,10 +21,12 @@
       "space w v": "pane::SplitVertical",
       "space w s": "pane::SplitHorizontal",
       "space w d": "pane::CloseActiveItem",
+      "space w t": "workspace::NewCenterTerminal",
       "space g g": "git_panel::Toggle",
       "space e": "project_panel::Toggle",
       "space x x": "diagnostics::Deploy",
       "space x X": "diagnostics::DeployCurrentFile",
+      "space b b": "tab_switcher::OpenInActivePane",
       "shift-k": "editor::Hover",
       "g r": "editor::FindAllReferences",
       "[d": "editor::GoToPreviousDiagnostic",
